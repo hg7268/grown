@@ -1,6 +1,5 @@
 import IntroImg from "../assets/intro.svg";
 import DecoImg from "../assets/introdeco.svg";
-import Image from "next/image";
 
 const IntroImage = () => {
 	return (

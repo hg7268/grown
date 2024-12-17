@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NotSupportImg from "../assets/notsupport.svg";
 import SupportedImg from "../assets/supported.svg";
 import AdvantageImage from "../assets/advantage.svg";
