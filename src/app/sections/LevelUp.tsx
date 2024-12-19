@@ -1,10 +1,5 @@
 import React from "react";
-import LogoBackImg from "/assets/levelupback.svg";
-import LogoMainImg from "/assets/levelup.svg";
-import PlayButton from "/assets/playbtn.svg";
-import UpArrow from "/assets/arrowup.svg";
-import LevelUpDecoImg from "/assets/levelupdeco.svg";
-import LevelUpDecoRightImg from "/assets/levelupdecoRight.svg";
+import Image from "next/image";
 
 const LevelUp = () => {
 	return (
@@ -23,24 +18,24 @@ const LevelUp = () => {
 				</h2>
 			</div>
 			<div className="relative">
-				<div className="mt-[50px] flex justify-center w-[95%] lg:w-[970px] h-[400px] lg:h-[560px] mx-auto rounded-[20px] bg-white shadow-[0px_10px_25px_-3px_#00000026] overflow-hidden">
-					<LogoBackImg className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%] hidden lg:block" />
-					<LogoMainImg className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%]" />
-					<button className="absolute left-[50%] -translate-x-[50%] bottom-[40px]">
-						<PlayButton className="w-[71px] h-[71px] z-10" />
+				<div className="absolute -translate-y-[50%] left-0 top-[50%] ">
+					<Image src="/assets/levelupdeco.svg" alt="+++" width={656} height={354} style={{ filter: "grayscale(1)" }} />
+				</div>
+				<div className="absolute -translate-y-[50%] right-0 top-[50%] ">
+					<Image src="/assets/levelupdecoRight.svg" alt="+++" width={656} height={354} style={{ filter: "grayscale(1)" }} />
+				</div>
+				<div className="relative z-10 mt-[50px] flex justify-center w-[80%] lg:w-[970px] h-[300px] lg:h-[560px] mx-auto rounded-[20px] bg-white shadow-[0px_10px_25px_-3px_#00000026] overflow-hidden">
+					<Image src="/assets/levelupback.svg" alt="back" width={814} height={322} className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%] hidden lg:block " />
+					<Image src="/assets/levelup.svg" alt="play" width={409} height={162} className="absolute -translate-x-[50%] -translate-y-[50%] left-[50%] top-[50%] w-[80%] lg:w-full" />
+					<button className="absolute left-[50%] -translate-x-[50%] bottom-[40px] z-20">
+						<Image src="/assets/playbtn.svg" alt="Play" width={70} height={70} className="z-10" />
 					</button>
-				</div>
-				<div className="absolute -translate-y-[50%] left-0 top-[50%] -z-30 hidden lg:block">
-					<LevelUpDecoImg style={{ filter: "grayscale(1)" }} />
-				</div>
-				<div className="absolute -translate-y-[50%] right-0 top-[50%] -z-30 hidden lg:block">
-					<LevelUpDecoRightImg style={{ filter: "grayscale(1)" }} />
 				</div>
 			</div>
 			<div className="mt-[30px] flex">
 				<div className="text-lg mx-auto leading-[120%] font-medium relative text-[#797979]">
 					Click To Play The Video
-					<UpArrow className="absolute bottom-2 right-0 translate-x-[60%]" />
+					<Image src="/assets/arrowup.svg" alt="UpArrow" width={79} height={133} className="absolute bottom-2 right-0 translate-x-[60%] z-20" />
 				</div>
 			</div>
 		</div>

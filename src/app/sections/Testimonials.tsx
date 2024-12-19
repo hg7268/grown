@@ -1,13 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import TestUser_1 from "/assets/test-user1.svg";
-import TestUser_2 from "/assets/test-user2.svg";
-import TestUser_3 from "/assets/test-user3.svg";
-import TestUser_4 from "/assets/test-user4.svg";
-import TestLogo_1 from "/assets/test-logo1.svg";
-import TestLogo_2 from "/assets/test-logo2.svg";
-import TestLogo_3 from "/assets/test-logo3.svg";
-import TestLogo_4 from "/assets/test-logo4.svg";
+import Image from "next/image";
 
 const Testimonials = () => {
 	const sliderRef = useRef<HTMLDivElement>(null);
@@ -54,105 +47,105 @@ const Testimonials = () => {
 					<div className="flex -mr-[30px] mb-[90px] duration-500 ease-in-out" ref={sliderRef}>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_1 className="mx-auto" />
+								<Image src="/assets/test-logo1.svg" alt="logo" width={142} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">53%</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">Growth</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_1 className="rounded-full" />
+									<Image src="/assets/test-user1.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_2 className="mx-auto" />
+								<Image src="/assets/test-logo2.svg" alt="logo" width={165} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">350</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">People</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_2 className="rounded-full" />
+									<Image src="/assets/test-user2.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_3 className="mx-auto" />
+								<Image src="/assets/test-logo3.svg" alt="logo" width={126} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">53%</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">Growth</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_3 className="rounded-full" />
+									<Image src="/assets/test-user3.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_4 className="mx-auto" />
+								<Image src="/assets/test-logo4.svg" alt="logo" width={151} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">+10%</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">Utilization</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_4 className="rounded-full" />
+									<Image src="/assets/test-user4.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_1 className="mx-auto" />
+								<Image src="/assets/test-logo1.svg" alt="logo" width={142} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">53%</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">Growth</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_1 className="rounded-full" />
+									<Image src="/assets/test-user1.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_2 className="mx-auto" />
+								<Image src="/assets/test-logo2.svg" alt="logo" width={165} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">350</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">People</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_2 className="rounded-full" />
+									<Image src="/assets/test-user2.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_3 className="mx-auto" />
+								<Image src="/assets/test-logo3.svg" alt="logo" width={126} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">53%</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">Growth</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_3 className="rounded-full" />
+									<Image src="/assets/test-user3.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>
 						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
-								<TestLogo_4 className="mx-auto" />
+								<Image src="/assets/test-logo4.svg" alt="logo" width={151} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
 									<div className="text-[42px] text-[#111111] leading-[120%] font-bold">+10%</div>
 									<div className="text-[20px] text-[#374550] leading-[120%] font-medium">Utilization</div>
 								</div>
 								<div className="text-[20px] leading-[120%] text-[#666666] mx-auto text-center">Company name grew 27% in under a year using Productive</div>
 								<div className="rounded-full p-[5px] bg-white w-fit bottom-0 left-[50%] absolute -translate-x-[50%] translate-y-[50%] shadow-lg">
-									<TestUser_4 className="rounded-full" />
+									<Image src="/assets/test-user4.svg" alt="user1" width={90} height={90} className="rounded-full" />
 								</div>
 							</div>
 						</div>

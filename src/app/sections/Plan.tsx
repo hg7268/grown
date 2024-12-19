@@ -1,24 +1,16 @@
-import Asana from "/assets/asana.svg";
 import Harvest from "/assets/harvest.svg";
 import PipeDrive from "/assets/pipedrive.svg";
 import Notion from "/assets/notion.svg";
 import Spreadsheet from "/assets/spreadsheet.svg";
 import Vacation from "/assets/vacation.svg";
 
-import ProjectManage from "/assets/projectmanage.svg";
-import TimeTracking from "/assets/timetracking.svg";
-import VacationTracking from "/assets/vacationtracing.svg";
-import ResourcePlanning from "/assets/resourceplanning.svg";
-import SalesCRM from "/assets/salescrm.svg";
-import Financials from "/assets/financials.svg";
-import Docs from "/assets/docs.svg";
-import Reporting from "/assets/reporting.svg";
+import Image from "next/image";
 
 const Plan = () => {
 	return (
 		<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">
 			<div className="mx-2.5 px-2 lg:px-0">
-				<div className="mx-10 lg:mx-0">
+				<div className="mx-0">
 					<h1 className="text-center text-[40px] md:text-[42px] lg:text-[48px] leading-[120%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
 						Swap Multiple Tools for&nbsp;
 						<span className="from-[#555555] to-black bg-gradient-to-b bg-clip-text font-extrabold relative after:absolute after:bottom-0 after:left-0 after:w-[100%] after:translate-y-[40%] after:h-[30%] after:bg-contain after:bg-no-repeat after:bg-[url('/font_underline.png')] after:-z-20">
@@ -31,54 +23,54 @@ const Plan = () => {
 						gravida scelerisque proin amet morbi.
 					</h2>
 				</div>
-				<div className="mt-[50px] flex gap-4 sm:gap-10 flex-col lg:flex-row px-2 lg:px-0">
+				<div className="mt-[50px] flex gap-4 sm:gap-10 flex-col lg:flex-row px-0">
 					<div className="flex-1 rounded-[20px] p-5 flex flex-col bg-gradient-to-b from-[#E9EBED] to-[#FFFFFF]">
 						<h3 className="text-[30px] font-bold leading-[120%]">Others Tools Price</h3>
 						<div className="mt-5">
 							<div className="flex gap-2.5 py-[15px] border-b items-center border-[#0000004D]">
-								<Asana />
+								<Image src="/assets/asana.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Asana</h4>
 									<h5 className="leading-[120%] text=[#666666]">$109.9 per month for 10 users</h5>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-[15px] border-b items-center border-[#0000004D]">
-								<Harvest />
+								<Image src="/assets/harvest.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Harvest</h4>
 									<h5 className="leading-[120%] text=[#666666]">$108 per month for 10 users</h5>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-[15px] border-b items-center border-[#0000004D]">
-								<Harvest />
+								<Image src="/assets/harvest.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Harvest Forecast</h4>
 									<h5 className="leading-[120%] text=[#666666]">$50 per month for 10 users</h5>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-[15px] border-b items-center border-[#0000004D]">
-								<PipeDrive />
+								<Image src="/assets/pipedrive.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Pipedrive Essential</h4>
 									<h5 className="leading-[120%] text=[#666666]">$149 per month for 10 users</h5>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-[15px] border-b items-center border-[#0000004D]">
-								<Notion />
+								<Image src="/assets/notion.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Notion</h4>
 									<h5 className="leading-[120%] text=[#666666]">$80 per month for 10 users</h5>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-[15px] border-b items-center border-[#0000004D]">
-								<Spreadsheet />
+								<Image src="/assets/spreadsheet.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Spreadsheets</h4>
 									<h5 className="leading-[120%] text=[#666666]">Free</h5>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-[15px] items-center">
-								<Vacation />
+								<Image src="/assets/vacation.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%] text-[#0D0C0A]">Vacation tracking app</h4>
 									<h5 className="leading-[120%] text=[#666666]">$15 per month for the account*</h5>
@@ -101,49 +93,49 @@ const Plan = () => {
 						<h3 className="text-[30px] font-bold leading-[120%] text-white">GrowNext Professional Plan</h3>
 						<div className="mt-5 text-white">
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<ProjectManage />
+								<Image src="/assets/projectmanage.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Project Management</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<TimeTracking />
+								<Image src="/assets/timetracking.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Time Tracking</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<VacationTracking />
+								<Image src="/assets/vacationtracing.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Vacation Tracking</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<ResourcePlanning />
+								<Image src="/assets/resourceplanning.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Resource Planning</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<SalesCRM />
+								<Image src="/assets/salescrm.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Sales CRM</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<Financials />
+								<Image src="/assets/financials.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Financials</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 border-b items-center border-[#4C4D51]">
-								<Docs />
+								<Image src="/assets/docs.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Docs</h4>
 								</div>
 							</div>
 							<div className="flex gap-2.5 py-2.5 items-center">
-								<Reporting />
+								<Image src="/assets/reporting.svg" alt="project" width={45} height={45} />
 								<div className="flex flex-col gap-1">
 									<h4 className="text-[20px] leading-[120%]">Reporting</h4>
 								</div>

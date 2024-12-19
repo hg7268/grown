@@ -2,14 +2,14 @@
 import Header from "./sections/Header";
 import Intro from "./sections/Intro";
 import Features from "./sections/Features";
-// import Advantage from "./sections/Advantage";
-// import LevelUp from "./sections/LevelUp";
-// import Plan from "./sections/Plan";
-// import Support from "./sections/Support";
-// import Testimonials from "./sections/Testimonials";
-// import Tailored from "./sections/Tailored";
-// import Divider from "./sections/Divider";
-// import Contact from "./sections/Contact";
+import Advantage from "./sections/Advantage";
+import LevelUp from "./sections/LevelUp";
+import Plan from "./sections/Plan";
+import Support from "./sections/Support";
+import Testimonials from "./sections/Testimonials";
+import Tailored from "./sections/Tailored";
+import Divider from "./sections/Divider";
+import Contact from "./sections/Contact";
 
 import UpArrowImg from "../app/assets/uparrow.png";
 import Image from "next/image";
@@ -48,14 +48,14 @@ export default function Home() {
 			<main className="flex flex-col relative">
 				<Intro />
 				<Features />
-				{/*<Advantage />
+				<Advantage />
 				<LevelUp />
 				<Plan />
 				<Support />
 				<Testimonials />
 				<Tailored />
 				<Divider />
-				<Contact /> */}
+				<Contact />
 				<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">
 					{showButton && (
 						<button

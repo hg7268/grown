@@ -1,5 +1,4 @@
 import React from "react";
-import StarImg from "/assets/star.png";
 import Image from "next/image";
 
 const Divider = () => {
@@ -11,19 +10,19 @@ const Divider = () => {
 					<div className="w-2.5 h-2.5 rounded-full" style={{ background: "linear-gradient(137.79deg, #555555 15%, #000000 83.5%)" }}></div>
 					<div className="flex gap-[5px]">
 						<div className="w-[30px] h-[30px]">
-							<Image src={StarImg} alt="*" />
+							<Image src="/assets/star.png" alt="*" width={60} height={60} />
 						</div>
 						<div className="w-[30px] h-[30px]">
-							<Image src={StarImg} alt="*" />
+							<Image src="/assets/star.png" alt="*" width={60} height={60} />
 						</div>
 						<div className="w-[30px] h-[30px]">
-							<Image src={StarImg} alt="*" />
+							<Image src="/assets/star.png" alt="*" width={60} height={60} />
 						</div>
 						<div className="w-[30px] h-[30px]">
-							<Image src={StarImg} alt="*" />
+							<Image src="/assets/star.png" alt="*" width={60} height={60} />
 						</div>
 						<div className="w-[30px] h-[30px]">
-							<Image src={StarImg} alt="*" />
+							<Image src="/assets/star.png" alt="*" width={60} height={60} />
 						</div>
 					</div>
 					<div className="w-2.5 h-2.5 rounded-full" style={{ background: "linear-gradient(137.79deg, #555555 15%, #000000 83.5%)" }}></div>
