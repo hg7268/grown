@@ -2,14 +2,14 @@
 import Header from "./sections/Header";
 import Intro from "./sections/Intro";
 import Features from "./sections/Features";
-import Advantage from "./sections/Advantage";
-import LevelUp from "./sections/LevelUp";
-import Plan from "./sections/Plan";
-import Support from "./sections/Support";
-import Testimonials from "./sections/Testimonials";
-import Tailored from "./sections/Tailored";
-import Divider from "./sections/Divider";
-import Contact from "./sections/Contact";
+// import Advantage from "./sections/Advantage";
+// import LevelUp from "./sections/LevelUp";
+// import Plan from "./sections/Plan";
+// import Support from "./sections/Support";
+// import Testimonials from "./sections/Testimonials";
+// import Tailored from "./sections/Tailored";
+// import Divider from "./sections/Divider";
+// import Contact from "./sections/Contact";
 
 import UpArrowImg from "../app/assets/uparrow.png";
 import Image from "next/image";
