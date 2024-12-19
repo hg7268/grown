@@ -1,13 +1,13 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import TestUser_1 from "../assets/test-user1.svg";
-import TestUser_2 from "../assets/test-user2.svg";
-import TestUser_3 from "../assets/test-user3.svg";
-import TestUser_4 from "../assets/test-user4.svg";
-import TestLogo_1 from "../assets/test-logo1.svg";
-import TestLogo_2 from "../assets/test-logo2.svg";
-import TestLogo_3 from "../assets/test-logo3.svg";
-import TestLogo_4 from "../assets/test-logo4.svg";
+import TestUser_1 from "/assets/test-user1.svg";
+import TestUser_2 from "/assets/test-user2.svg";
+import TestUser_3 from "/assets/test-user3.svg";
+import TestUser_4 from "/assets/test-user4.svg";
+import TestLogo_1 from "/assets/test-logo1.svg";
+import TestLogo_2 from "/assets/test-logo2.svg";
+import TestLogo_3 from "/assets/test-logo3.svg";
+import TestLogo_4 from "/assets/test-logo4.svg";
 
 const Testimonials = () => {
 	const sliderRef = useRef<HTMLDivElement>(null);

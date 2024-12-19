@@ -1,5 +1,5 @@
 import React from "react";
-import StarImg from "../assets/star.png";
+import StarImg from "/assets/star.png";
 import Image from "next/image";
 
 const Divider = () => {

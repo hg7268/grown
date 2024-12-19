@@ -3,7 +3,7 @@ import IntroImage from "../components/IntroImage";
 const Intro = () => {
 	return (
 		<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto">
-			<div className="mt-[130px] md:mt-[150px] lg:mt-[197px] mb-[126px]">
+			<div className="mt-[130px] md:mt-[150px] lg:mt-[197px] lg:mb-[126px] mb-0">
 				<div className="flex justify-between w-full flex-col lg:flex-row gap-y-10">
 					<div className="w-[95%] lg:w-[400px] flex flex-col justify-between">
 						<div>

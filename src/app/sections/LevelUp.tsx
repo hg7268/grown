@@ -1,10 +1,10 @@
 import React from "react";
-import LogoBackImg from "../assets/levelupback.svg";
-import LogoMainImg from "../assets/levelup.svg";
-import PlayButton from "../assets/playbtn.svg";
-import UpArrow from "../assets/arrowup.svg";
-import LevelUpDecoImg from "../assets/levelupdeco.svg";
-import LevelUpDecoRightImg from "../assets/levelupdecoRight.svg";
+import LogoBackImg from "/assets/levelupback.svg";
+import LogoMainImg from "/assets/levelup.svg";
+import PlayButton from "/assets/playbtn.svg";
+import UpArrow from "/assets/arrowup.svg";
+import LevelUpDecoImg from "/assets/levelupdeco.svg";
+import LevelUpDecoRightImg from "/assets/levelupdecoRight.svg";
 
 const LevelUp = () => {
 	return (

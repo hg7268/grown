@@ -1,17 +1,14 @@
-import IntroImg from "../assets/intro.svg";
-import DecoImg from "../assets/introdeco.svg";
+import Image from "next/image";
 
 const IntroImage = () => {
 	return (
 		<div className="relative flex">
-			{/* <Image src={IntroImg} alt="Intro" width={576} height={377} className="w-[95%] md:w-[600px] lg:w-[567px] mx-auto" /> */}
-			<div className="w-[95%] h-[377px] lg:w-[576px] lg:h-[377px] relative">
-				<IntroImg className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]" />
+			<div className="w-[95%] h-[247px] lg:w-[576px] lg:h-[377px] relative">
+				<Image src="/intro.svg" alt="#" width={760} height={626} className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]" />
 			</div>
-			<div className="w-[235px] h-[238px] hidden 2xl:block absolute -bottom-16 right-10 translate-x-[100%]">
-				<DecoImg />
+			<div className="w-[80px] h-[81px] lg:w-[235px] lg:h-[238px] absolute -bottom-2 lg:-bottom-16 lg:right-10 right-28 translate-x-[100%]">
+				<Image src="/introdeco.svg" alt="Intro" width={235} height={238} className="" />
 			</div>
-			{/* <Image src={DecoImg} alt="Intro" width={235} height={238} className="hidden 2xl:block absolute -bottom-16 right-10 translate-x-[100%]" /> */}
 		</div>
 	);
 };

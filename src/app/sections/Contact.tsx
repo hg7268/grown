@@ -1,16 +1,16 @@
 import Image from "next/image";
-import DatabaseImg from "../assets/contact-database.svg";
-import PlayBtnImg from "../assets/playbtn.png";
-import LinkedIn from "../assets/linkedin.png";
-import Twitter from "../assets/X.png";
-import Facebook from "../assets/facebook.png";
-import Instagram from "../assets/instagram.png";
-import Youtube from "../assets/youtube.png";
-import GooglePlayBtn from "../assets/googleplay.png";
-import AppStore from "../assets/appstore.png";
-import Microsoft from "../assets/microsoft.png";
-import MacApp from "../assets/macapp.png";
-import Linux from "../assets/linux.png";
+import DatabaseImg from "/assets/contact-database.svg";
+import PlayBtnImg from "/assets/playbtn.png";
+import LinkedIn from "/assets/linkedin.png";
+import Twitter from "/assets/X.png";
+import Facebook from "/assets/facebook.png";
+import Instagram from "/assets/instagram.png";
+import Youtube from "/assets/youtube.png";
+import GooglePlayBtn from "/assets/googleplay.png";
+import AppStore from "/assets/appstore.png";
+import Microsoft from "/assets/microsoft.png";
+import MacApp from "/assets/macapp.png";
+import Linux from "/assets/linux.png";
 
 const Contact = () => {
 	return (
@@ -29,7 +29,7 @@ const Contact = () => {
 							<div className="font-medium text-white">Watch Video</div>
 						</button>
 					</div>
-					<div className="flex justify-between gap-0 lg:gap-[69px] mt-5 mx-5 lg:mx-0">
+					<div className="flex justify-between flex-wrap gap-x-0 gap-y-4 lg:gap-[69px] mt-5 mx-5 lg:mx-0">
 						<div className="flex flex-col gap-2">
 							<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">Company</div>
 							<div className="flex flex-col">
@@ -84,7 +84,7 @@ const Contact = () => {
 								</a>
 							</div>
 						</div>
-						<div className="flex flex-col gap-2.5">
+						<div className="flex flex-row lg:flex-col gap-2.5">
 							<a href="" className="rounded-[6px] bg-[#EBECED] w-[30px] h-[30px] flex items-center justify-center">
 								<Image src={LinkedIn} alt="Li" width={15} height={15} />
 							</a>
@@ -103,7 +103,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex justify-center lg:justify-between items-center gap-y-4 mt-14 flex-col lg:flex-row">
+				<div className="flex justify-center lg:justify-between items-center gap-y-4 mt-6 lg:mt-14 flex-col lg:flex-row">
 					<div className="flex gap-2.5">
 						<button className="hover:scale-105">
 							<Image src={GooglePlayBtn} alt="GooglePlay" className="w-auto h-[30px] aspect-auto" />

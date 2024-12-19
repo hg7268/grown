@@ -46,7 +46,7 @@ export default function Home() {
 		<div className="min-h-screen overflow-x-hidden">
 			<Header />
 			<main className="flex flex-col relative">
-				<Intro />
+				{/* <Intro />
 				<Features />
 				<Advantage />
 				<LevelUp />
@@ -55,7 +55,7 @@ export default function Home() {
 				<Testimonials />
 				<Tailored />
 				<Divider />
-				<Contact />
+				<Contact /> */}
 				<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">
 					{showButton && (
 						<button

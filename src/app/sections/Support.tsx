@@ -3,11 +3,11 @@ import { AiFillApple } from "react-icons/ai";
 import { AiOutlineDownload } from "react-icons/ai";
 import { AiFillWindows } from "react-icons/ai";
 import React from "react";
-import ComputerImg from "../assets/supportcom.svg";
-import SupportAndroid from "../assets/supportandroid.svg";
-import SupportIos from "../assets/supportios.svg";
-import DecoLeft from "../assets/supportcomdecoleft.svg";
-import DecoRight from "../assets/supportcomdecoright.svg";
+import ComputerImg from "/assets/supportcom.svg";
+import SupportAndroid from "/assets/supportandroid.svg";
+import SupportIos from "/assets/supportios.svg";
+import DecoLeft from "/assets/supportcomdecoleft.svg";
+import DecoRight from "/assets/supportcomdecoright.svg";
 
 const Support = () => {
 	return (
@@ -63,10 +63,10 @@ const Support = () => {
 					</div>
 					<div className="flex-1 pt-24 lg:pt-6 flex flex-col gap-[50px]">
 						<div>
-							<h1 className="text-[36px] md:text-[40px] lg:text-[40px] leading-[120%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
+							<h1 className="text-center lg:text-start px-4 lg:px-0 text-[36px] md:text-[40px] lg:text-[40px] leading-[120%] font-extrabold from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">
 								Accessible Anytime, Anywhere
 							</h1>
-							<h2 className="mt-4 lg:mt-6 text-[20px] leading-[27px] text-[#666666] max-w-[1070px] mx-auto">
+							<h2 className="text-center lg:text-start px-4 lg:px-0 mt-4 lg:mt-6 text-[20px] leading-[27px] text-[#666666] max-w-[1070px] mx-auto">
 								Effortless Access and Management Across All Platforms – Desktop Apps for Windows, macOS, and Linux, Plus Mobile Apps for Android and iOS.
 							</h2>
 						</div>

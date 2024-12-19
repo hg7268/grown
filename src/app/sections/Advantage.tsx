@@ -1,7 +1,6 @@
-import NotSupportImg from "../assets/notsupport.svg";
-import SupportedImg from "../assets/supported.svg";
-import AdvantageImage from "../assets/advantage.svg";
-import ArrowImg from "../assets/reverseArrow.svg";
+import AdvantageImage from "/assets/advantage.svg";
+import ArrowImg from "/assets/reverseArrow.svg";
+import Image from "next/image";
 
 const Advantage = () => {
 	return (
@@ -26,25 +25,25 @@ const Advantage = () => {
 						<div className="flex mt-[30px] gap-[25px] flex-col">
 							<div className="flex items-center gap-[10px]">
 								<div>
-									<NotSupportImg />
+									<Image src="assets/notsupport.svg" alt="#" />
 								</div>
 								<h4 className="leading-[120%]">Data scattered throughout multiple tools and spreadsheets</h4>
 							</div>
 							<div className="flex items-center gap-[10px]">
 								<div>
-									<NotSupportImg />
+									<Image src="assets/notsupport.svg" alt="#" />
 								</div>
 								<h4 className="leading-[120%]">No idea who’s scheduled on which project and when</h4>
 							</div>
 							<div className="flex items-center gap-[10px]">
 								<div>
-									<NotSupportImg />
+									<Image src="assets/notsupport.svg" alt="#" />
 								</div>
 								<h4 className="leading-[120%]">Difficulty finding out how much of a budget has been spent</h4>
 							</div>
 							<div className="flex items-center gap-[10px]">
 								<div>
-									<NotSupportImg />
+									<Image src="assets/notsupport.svg" alt="#" />
 								</div>
 								<h4 className="leading-[120%]">Limited access to real-time reporting</h4>
 							</div>
@@ -59,25 +58,25 @@ const Advantage = () => {
 							<div className="flex mt-[30px] gap-[25px] flex-col">
 								<div className="flex items-center gap-[10px]">
 									<div className="w-[36px] h-[36px] flex items-center justify-center">
-										<SupportedImg width={36} height={36} />
+										<Image src="assets/supported.svg" alt="#" />
 									</div>
 									<h4 className="leading-[120%]">Consolidated data in one agency management system</h4>
 								</div>
 								<div className="flex items-center gap-[10px]">
 									<div className="w-[36px] h-[36px] flex items-center justify-center">
-										<SupportedImg width={36} height={36} />
+										<Image src="assets/supported.svg" alt="#" />
 									</div>
 									<h4 className="leading-[120%]">Running projects from prospect to payment and everything in between</h4>
 								</div>
 								<div className="flex items-center gap-[10px]">
 									<div className="w-[36px] h-[36px] flex items-center justify-center">
-										<SupportedImg width={36} height={36} />
+										<Image src="assets/supported.svg" alt="#" />
 									</div>
 									<h4 className="leading-[120%]">One tool for complex budgeting and resource planning</h4>
 								</div>
 								<div className="flex items-center gap-[10px]">
 									<div className="w-[36px] h-[36px] flex items-center justify-center">
-										<SupportedImg width={36} height={36} />
+										<Image src="assets/supported.svg" alt="#" />
 									</div>
 									<h4 className="leading-[120%]">A single source of truth for all your financial data, leads, budgets, and team communication</h4>
 								</div>
@@ -87,7 +86,7 @@ const Advantage = () => {
 				</div>
 				<div className="mt-[15px] flex justify-center relative">
 					{/* <Image src={AdvantageImage} alt="Advantage" width={440} height={274} /> */}
-					<AdvantageImage />
+					<Image src="/assets/advantage.svg" alt="Advantage" width={440} height={274} />
 					<ArrowImg className="absolute left-[70%] top-6 hidden lg:block" />
 				</div>
 			</div>

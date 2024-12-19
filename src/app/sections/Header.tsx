@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../assets/logo.png";
-import User from "../assets/user.svg";
 import { useState } from "react";
 
 export default function Header() {
@@ -18,7 +16,7 @@ export default function Header() {
 			<div className="rounded-[60px] bg-white mx-auto p-[0.35rem] px-[12px] shadow-lg  2xl:w-[1195px] xl:w-[1100px] w-[95%]">
 				<div className="flex justify-between items-center">
 					<div className="flex gap-10">
-						<Image src={logo} alt="GrowNext" width={126.5} height={50} />
+						<Image src="/assets/logo.png" alt="GrowNext" width={126.5} height={50} />
 						<div className="hidden xl:flex items-center gap-5">
 							{["Home", "Features", "Pricing", "Partner", "Support", "Contact"].map((link) => (
 								<a key={link} href="#" onClick={() => handleLinkClick(link)} className={`hover:text-[#111111] ${activeLink === link ? "text-[#111111]" : "text-[#666666]"}`}>
@@ -32,7 +30,7 @@ export default function Header() {
 							Request a Demo
 						</a>
 						<button className="flex gap-2 items-center">
-							<User />
+							<Image src="/assets/user.svg" alt="User" width={16} height={18} />
 							Login
 						</button>
 						<button className="rounded-[32px] px-[1rem] py-[0.5rem] bg-gradient-to-b from-[#555555] to-[#000000] text-white">Start For Free</button>
@@ -59,9 +57,15 @@ export default function Header() {
 					</div>
 					<hr className="mt-3 md:hidden" />
 					<div className="flex flex-col sm:flex-row sm:px-10 md:hidden">
-						<div className="flex justify-between sm:gap-10 flex-wrap px-4 mt-3">
+						<div className="flex justify-between sm:gap-10 flex-wrap lg:px-4 ps-4 mt-3">
 							{["Request Demo", "Login"].map((link) => (
-								<a key={link} href="#" onClick={() => handleLinkClick(link)} className={`hover:text-[#111111] min-w-24 ${activeLink === link ? "text-[#111111]" : "text-[#666666]"}`}>
+								<a
+									key={link}
+									href="#"
+									onClick={() => handleLinkClick(link)}
+									className={`flex gap-3 hover:text-[#111111] min-w-24 ${activeLink === link ? "text-[#111111]" : "text-[#666666]"}`}
+								>
+									{link === "Login" && <Image src="/assets/user.svg" alt="User" width={16} height={18} />}
 									{link}
 								</a>
 							))}

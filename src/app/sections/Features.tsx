@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
-import FeatureRightImg from "../assets/feature_com.png";
-import ArrowImg from "../assets/feature_arrow.png";
-import DecoPolygon from "../assets/blue_polygon.png";
+import FeatureRightImg from "/assets/feature_com.png";
+import ArrowImg from "/assets/feature_arrow.png";
+import DecoPolygon from "/assets/blue_polygon.png";
 import FeatureDropdown from "../components/FeatureDropdown";
 
 const Features = () => {

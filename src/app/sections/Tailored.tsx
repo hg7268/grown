@@ -1,4 +1,5 @@
-import TailoredImg from "../assets/tailored.svg";
+import Image from "next/image";
+import TailoredImg from "/assets/tailored.svg";
 
 const Tailored = () => {
 	return (
@@ -23,7 +24,8 @@ const Tailored = () => {
 					</div>
 					<div className="mx-auto">
 						{/* <Image src={TailoredImg} alt="" width={1400} height={600} className="max-w-[700px] w-full" /> */}
-						<TailoredImg />
+						{/* <TailoredImg className="w-[400px]" width={700} height={300} /> */}
+						<Image src="/tailored.svg" width={700} height={300} alt="#" className="max-w-[700px] w-full" />
 					</div>
 				</div>
 			</div>
