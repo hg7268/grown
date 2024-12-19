@@ -46,9 +46,9 @@ export default function Home() {
 		<div className="min-h-screen overflow-x-hidden">
 			<Header />
 			<main className="flex flex-col relative">
-				{/* <Intro />
+				<Intro />
 				<Features />
-				<Advantage />
+				{/*<Advantage />
 				<LevelUp />
 				<Plan />
 				<Support />

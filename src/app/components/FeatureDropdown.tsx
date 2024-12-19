@@ -16,7 +16,7 @@ const FeatureDropdown: React.FC<{
 	};
 
 	return (
-		<div className="flex pt-5 pe-[13.29px] pb-[5px] bg-white shadow=[0px_10px_25px_-3px_#00000026] rounded-[20px] flex-col w-[330px] me-3">
+		<div className="flex pt-5 pe-[13.29px] pb-[5px] bg-white shadow-[0px_10px_25px_-3px_#00000026] rounded-[20px] flex-col w-[330px] me-3">
 			<div className="h-[24px] mb-4 relative w-full">
 				<div className="text-[24px] ms-[19px] font-semibold absolute top-[50%] left-0 translate-y-[-50%]">Features</div>
 			</div>
