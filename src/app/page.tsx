@@ -11,7 +11,6 @@ import Tailored from "./sections/Tailored";
 import Divider from "./sections/Divider";
 import Contact from "./sections/Contact";
 
-import UpArrowImg from "../app/assets/uparrow.png";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -62,7 +61,7 @@ export default function Home() {
 							className="absolute bottom-12 w-[50px] h-[50px] -right-10 translate-x-[100%] bg-gradient-to-b from-[#555555] to-black shadow-[0px_10px_25px_-3px_#00000026] rounded-full flex justify-center items-end"
 							onClick={handleScrollToTop}
 						>
-							<Image src={UpArrowImg} alt="↑" width={20} height={35} />
+							<Image src="/assets/uparrow.png" alt="↑" width={20} height={35} />
 						</button>
 					)}
 				</div>

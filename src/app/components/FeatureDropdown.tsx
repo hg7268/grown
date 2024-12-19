@@ -1,11 +1,7 @@
 "use client";
 import { BsChevronRight } from "react-icons/bs";
-import UnionImg from "../assets/union.svg";
-import NoteImg from "../assets/note.svg";
-import SiteImg from "../assets/sites.svg";
-import HRImg from "../assets/hr.svg";
-import CMSImg from "../assets/cms.svg";
 import React from "react";
+import Image from "next/image";
 
 const FeatureDropdown: React.FC<{
 	submenu: number;
@@ -23,7 +19,7 @@ const FeatureDropdown: React.FC<{
 			<div className="flex ps-2.5 flex-col">
 				<button className="border-t border-b border-[#e9ebed] ps-2.5 py-3 pe-3 flex justify-between items-center w-full" onClick={() => toggleSubmenu(1)}>
 					<div className="flex gap-2 items-center">
-						<UnionImg width="20px" height="20px" />
+						<Image src="../assets/union.svg" alt="union" width={20} height={20} />
 						<div className="text-[20px] font-semibold">Collaboration</div>
 					</div>
 					<div className="w-[18px] h-[18px] d-flex">
@@ -46,7 +42,7 @@ const FeatureDropdown: React.FC<{
 				)}
 				<button className="border-t border-[#e9ebed] ps-2.5 py-3 pe-3 flex justify-between items-center w-full" onClick={() => toggleSubmenu(2)}>
 					<div className="flex gap-2 items-center">
-						<NoteImg width="20px" height="20px" />
+						<Image src="../assets/note.svg" alt="union" width={20} height={20} />
 						<div className="text-[20px] font-semibold">Task & Projects</div>
 					</div>
 					<div className="w-[18px] h-[18px] d-flex">
@@ -69,7 +65,7 @@ const FeatureDropdown: React.FC<{
 				)}
 				<button className="border-t border-[#e9ebed] ps-2.5 py-3 pe-3 flex justify-between items-center w-full" onClick={() => toggleSubmenu(3)}>
 					<div className="flex gap-2 items-center">
-						<SiteImg width="20px" height="20px" />
+						<Image src="../assets/sites.svg" alt="union" width={20} height={20} />
 						<div className="text-[20px] font-semibold">Sites & Stores</div>
 					</div>
 					<div className="w-[18px] h-[18px] d-flex">
@@ -92,7 +88,7 @@ const FeatureDropdown: React.FC<{
 				)}
 				<button className="border-t border-[#e9ebed] ps-2.5 py-3 pe-3 flex justify-between items-center w-full" onClick={() => toggleSubmenu(4)}>
 					<div className="flex gap-2 items-center">
-						<HRImg width="20px" height="20px" />
+						<Image src="../assets/hr.svg" alt="union" width={20} height={20} />
 						<div className="text-[20px] font-semibold">HR & Automation</div>
 					</div>
 					<div className="w-[18px] h-[18px] d-flex">
@@ -115,7 +111,7 @@ const FeatureDropdown: React.FC<{
 				)}
 				<button className="border-t border-[#e9ebed] ps-2.5 py-3 pe-3 flex justify-between items-center w-full" onClick={() => toggleSubmenu(5)}>
 					<div className="flex gap-2 items-center">
-						<CMSImg width="20px" height="20px" />
+						<Image src="../assets/cms.svg" alt="union" width={20} height={20} />
 						<div className="text-[20px] font-semibold">CMS</div>
 					</div>
 					<div className="w-[18px] h-[18px] d-flex">

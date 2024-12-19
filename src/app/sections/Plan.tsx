@@ -1,9 +1,3 @@
-import Harvest from "/assets/harvest.svg";
-import PipeDrive from "/assets/pipedrive.svg";
-import Notion from "/assets/notion.svg";
-import Spreadsheet from "/assets/spreadsheet.svg";
-import Vacation from "/assets/vacation.svg";
-
 import Image from "next/image";
 
 const Plan = () => {

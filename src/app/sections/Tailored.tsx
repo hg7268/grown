@@ -1,5 +1,4 @@
 import Image from "next/image";
-import TailoredImg from "/assets/tailored.svg";
 
 const Tailored = () => {
 	return (
