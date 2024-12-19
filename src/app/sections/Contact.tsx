@@ -5,7 +5,7 @@ const Contact = () => {
 		<div className="w-[95%] xl:w-[1100px] 2xl:w-[1170px] mx-auto relative">
 			<div className="mt-2.5 mb-14">
 				<div className="flex justify-between flex-col lg:flex-row">
-					<div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-[#E9EBED] to-white w-[95%] lg:w-[465px] relative">
+					<div className="rounded-[19px] p-5 flex gap-[22px] flex-col bg-gradient-to-b from-[#E9EBED] to-white w-full lg:w-[465px] relative">
 						<Image src="/assets/contact-database.svg" alt="database" width={144} height={144} className="absolute left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]" />
 						<div className="text-[#1A2749] text-[20px] leading-[120%] font-bold uppercase z-10">Your privacy is our responsibility</div>
 						<div className="text-[#666666] leading-[23px] z-10">
@@ -17,59 +17,61 @@ const Contact = () => {
 							<div className="font-medium text-white">Watch Video</div>
 						</button>
 					</div>
-					<div className="flex justify-between flex-wrap gap-x-0 gap-y-4 lg:gap-[69px] mt-5 mx-5 lg:mx-0">
-						<div className="flex flex-col gap-2">
-							<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">Company</div>
-							<div className="flex flex-col">
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									About Us
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Pricing
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Features
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Integrations
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Contact
-								</a>
+					<div className="flex justify-between flex-col lg:flex-row gap-x-0 gap-y-4 lg:gap-[69px] mt-5 mx-5 lg:mx-0">
+						<div className="flex justify-between gap-x-0 gap-y-4 lg:gap-[69px]">
+							<div className="flex flex-col gap-2">
+								<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">Company</div>
+								<div className="flex flex-col">
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										About Us
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Pricing
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Features
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Integrations
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Contact
+									</a>
+								</div>
 							</div>
-						</div>
-						<div className="flex flex-col gap-2">
-							<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">RESOURCES</div>
-							<div className="flex flex-col">
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Login
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Register
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Blog
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Career
-								</a>
+							<div className="flex flex-col gap-2">
+								<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">RESOURCES</div>
+								<div className="flex flex-col">
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Login
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Register
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Blog
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Career
+									</a>
+								</div>
 							</div>
-						</div>
-						<div className="flex flex-col gap-2">
-							<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">SECURITY</div>
-							<div className="flex flex-col">
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Privacy Policy
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Terms & Conditions
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Refund Policy
-								</a>
-								<a href="#" className="text-[#666666] text-lg leading-[35px]">
-									Site map
-								</a>
+							<div className="flex flex-col gap-2">
+								<div className="text-[20px] leading-[120%] font-medium from-[#555555] to-black bg-gradient-to-b bg-clip-text text-transparent">SECURITY</div>
+								<div className="flex flex-col">
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Privacy Policy
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Terms & Conditions
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Refund Policy
+									</a>
+									<a href="#" className="text-[#666666] text-lg leading-[35px]">
+										Site map
+									</a>
+								</div>
 							</div>
 						</div>
 						<div className="flex flex-row lg:flex-col gap-2.5">

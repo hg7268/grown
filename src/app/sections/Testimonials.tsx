@@ -45,7 +45,7 @@ const Testimonials = () => {
 				</div>
 				<div className="overflow-hidden flex flex-col">
 					<div className="flex -mr-[30px] mb-[90px] duration-500 ease-in-out" ref={sliderRef}>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo1.svg" alt="logo" width={142} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -58,7 +58,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo2.svg" alt="logo" width={165} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -71,7 +71,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo3.svg" alt="logo" width={126} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -84,7 +84,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo4.svg" alt="logo" width={151} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -97,7 +97,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo1.svg" alt="logo" width={142} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -110,7 +110,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo2.svg" alt="logo" width={165} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -123,7 +123,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo3.svg" alt="logo" width={126} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
@@ -136,7 +136,7 @@ const Testimonials = () => {
 								</div>
 							</div>
 						</div>
-						<div className="min-w-[50%] lg:min-w-[25%] pr-[30px]">
+						<div className="min-w-[100%] lg:min-w-[25%] pr-[30px]">
 							<div className="rounded-[20px] bg-gradient-to-b from-[#E9EBED] to-white pb-[84px] relative pt-[25px] px-[17px] flex flex-col gap-[30px]">
 								<Image src="/assets/test-logo4.svg" alt="logo" width={151} height={30} className="mx-auto"></Image>
 								<div className="flex items-baseline gap-2.5 mx-auto">
